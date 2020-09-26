@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Router from "./routes/router";
+import Navbar from "./components/header";
+import Footer from "./components/footer";
+import { BrowserRouter } from "react-router-dom";
+// import "react-bulma-components/dist/react-bulma-components.min.css";
+import "../src/index.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// console.log(process.env.REACT_APP_FIREBASE_API_KEY)
+
+class App extends Component {
+  render() {
+    return (
+      <div className="page-container">
+        <div className="content-wrap">
+          <Navbar />
+
+          <BrowserRouter>
+            <Router />
+          </BrowserRouter>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
+
