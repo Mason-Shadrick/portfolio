@@ -1,7 +1,7 @@
 import React from "react";
 // import "react-bulma-components/dist/react-bulma-components.min.css";
 // import "./Footer.css";
-
+import "./style.css"
 
 const footer = () => {
   return (

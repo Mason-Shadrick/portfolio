@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import { BrowserRouter } from "react-router-dom";
 // import "react-bulma-components/dist/react-bulma-components.min.css";
 import "../src/index.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 // console.log(process.env.REACT_APP_FIREBASE_API_KEY)
 
