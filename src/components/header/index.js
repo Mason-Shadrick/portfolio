@@ -44,13 +44,13 @@ class navbar extends Component {
           <div className="navbar-start">
             <a className="navbar-item" href="/About">
               About Me&nbsp;&nbsp;
-              <i className="fas fa-map-marked-alt"></i>
+              <i className="fa fa-info-circle"></i>
             </a>
             <a className="navbar-item" href="/Skills">
-              Skills&nbsp;&nbsp;<i className="fas fa-home"></i>
+              Skills&nbsp;&nbsp;<i className="fa fa-sitemap"></i>
             </a>
             <a className="navbar-item" href="/Projects">
-              Past Projects&nbsp;&nbsp;<i className="fas fa-question-circle"></i>
+              Past Projects&nbsp;&nbsp;<i className="fa fa-tasks"></i>
             </a>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link" href="/">

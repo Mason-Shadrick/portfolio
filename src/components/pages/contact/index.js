@@ -1,16 +1,14 @@
-
-
 import React, {Component} from "react"
 
 
-class Skills extends Component {
+class Contact extends Component {
 
     render(){
         return(
-            <h1>Skills Page</h1>
+            <h1>Hello World</h1>
         )
     }
 
 }
 
-export default Skills
+export default Contact

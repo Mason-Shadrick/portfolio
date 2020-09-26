@@ -34,17 +34,17 @@ const footer = () => {
             <ul>
               <li>
                 <a className="white-text" href="/About">
-                  <i className="fas fa-user-plus"></i>&nbsp;About Me
+                  <i className="fa fa-info-circle"></i>&nbsp;About Me
                 </a>
               </li>
               <li>
                 <a className="white-text" href="/Skills">
-                  <i className="fas fa-home"></i>&nbsp;Skills
+                  <i className="fa fa-sitemap"></i>&nbsp;Skills
                 </a>
               </li>
               <li>
                 <a className="white-text" href="/Projects">
-                  <i className="fas fa-door-open"></i>&nbsp;Past Projects
+                  <i className="fa fa-tasks"></i>&nbsp;Past Projects
                 </a>
               </li>
               <li>
@@ -67,7 +67,7 @@ const footer = () => {
                   target="blank"
                   href="mailto:mason.shadrick.d@gmail.com"
                 >
-                  <i className="fa fa-envelope"></i>&nbsp;Email Us
+                  <i className="fa fa-envelope"></i>&nbsp;Email Me
                 </a>
               </li>
               <li>
